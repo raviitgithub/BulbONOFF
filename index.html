@@ -1,0 +1,24 @@
+<html>
+    <head>
+     <title> Power On</title>
+     <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <img src="bulboff.jpeg" id="image">
+        <button onclick="bulbon()"> Dark Bulb</button>
+        <button onclick="brightbulbon()">Bright Bulb</button>
+        <button onclick="bulboff()">Bulb OFF</button>
+   
+    </body>
+    <script>
+        function bulbon(){
+            document.getElementById('image').src="bulbon.jpeg"
+        }
+        function bulboff(){
+            document.getElementById('image').src="bulboff.jpeg"
+        }
+        function brightbulbon(){
+            document.getElementById('image').src="BrightLight.jpeg"
+        }
+    </script>
+</html>
